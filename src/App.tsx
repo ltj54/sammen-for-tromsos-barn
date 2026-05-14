@@ -1,27 +1,50 @@
 import './App.css'
 
+const navItems = [
+  { href: '#om', label: 'Om initiativet' },
+  { href: '#hvorfor', label: 'Hvorfor' },
+  { href: '#bidra', label: 'Bidra' },
+  { href: '#kontakt', label: 'Kontakt' },
+]
+
+const principles = [
+  'Smarttelefon kan vente',
+  'Klasse og trinn først',
+  'FAU i ryggen',
+]
+
+const contributionSteps = [
+  'Start med en samtale i klassen eller på trinnet.',
+  'Bruk foreldremøte, FAU eller en enkel spørreundersøkelse for å finne ut hvor mange som vil stå sammen.',
+  'Finn andre foreldre i Tromsø som vil dele erfaringer og gjøre det lettere å holde linjen over tid.',
+]
+
 function App() {
   return (
-      <main className="page">
-        <header className="siteHeader">
-          <a href="#" className="logo">
-            Sammen for Tromsøs barn
-          </a>
+    <main className="page">
+      <header className="siteHeader">
+        <a href="#" className="logo" aria-label="Sammen for Tromsøs barn">
+          <span className="logoMark">STB</span>
+          <span>Sammen for Tromsøs barn</span>
+        </a>
 
-          <nav className="navLinks">
-            <a href="#om">Om initiativet</a>
-            <a href="#hvorfor">Hvorfor</a>
-            <a href="#bidra">Bidra</a>
-            <a href="#kontakt">Kontakt</a>
-          </nav>
-        </header>
+        <nav className="navLinks" aria-label="Hovedmeny">
+          {navItems.map((item) => (
+            <a href={item.href} key={item.href}>
+              {item.label}
+            </a>
+          ))}
+        </nav>
+      </header>
 
-        <section className="hero">
+      <section className="hero">
+        <div className="heroCopy">
           <h1>Sammen for Tromsøs barn</h1>
 
           <p className="lead">
-            Et lokalt initiativ i Tromsø for mer lek, ro, fellesskap og
-            tilstedeværelse i barns hverdag.
+            Et lokalt initiativ i Tromsø for foreldre som vil utsette
+            smarttelefon til etter barneskolen, og gi barna mer lek, ro,
+            fellesskap og tilstedeværelse i hverdagen.
           </p>
 
           <div className="heroActions">
@@ -32,63 +55,109 @@ function App() {
               Les mer
             </a>
           </div>
-        </section>
 
-        <section id="om" className="contentSection">
+          <img
+            className="harborSketch"
+            src="/tromso-harbor.svg"
+            alt="Linjeillustrasjon av Tromsø med fjell, bro og havnefront"
+          />
+        </div>
+
+        <aside className="noticeBoard" aria-label="Kjernepunkter">
+          <div className="noticePin" />
+          <p>Felles valg blir lettere når ingen må ta dem alene.</p>
+          <ul>
+            {principles.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </aside>
+      </section>
+
+      <section id="om" className="splitSection">
+        <div>
           <h2>Hva handler initiativet om?</h2>
+        </div>
+        <div className="sectionText">
           <p>
             Sammen for Tromsøs barn er et lokalt initiativ for foreldre, skoler
-            og nærmiljø som ønsker å skape gode rammer rundt barns digitale hverdag.
+            og nærmiljø som ønsker å gjøre det vanligere å vente med smarttelefon
+            gjennom barneskolen.
           </p>
           <p>
             Målet er ikke å være moraliserende, men å gjøre det enklere å stå
-            sammen om gode valg, særlig rundt tidspunktet for når barn får egen
-            smarttelefon.
+            sammen om gode valg. Når flere foreldre på samme trinn snakker sammen,
+            blir det mindre press på hver enkelt familie og mindre utenforskap for
+            barna som venter.
           </p>
-        </section>
+        </div>
+      </section>
 
-        <section id="hvorfor" className="contentSection">
+      <section id="hvorfor" className="darkBand">
+        <div className="fjordLines" aria-hidden="true" />
+        <div className="darkBandContent">
           <h2>Hvorfor er dette viktig?</h2>
           <p>
-            Mange foreldre opplever at det er vanskelig å ta valget alene. Når flere
-            står sammen, blir det lettere å utsette smarttelefon, redusere press og
-            gi barna mer tid til lek, søvn, vennskap og fritidsaktiviteter.
+            Mange foreldre opplever at det er vanskelig å ta valget alene.
+            Dette handler først og fremst om smarttelefon og sosiale medier,
+            ikke om å lage en debatt om all skjermbruk. Når flere står sammen,
+            blir det lettere å redusere press og gi barna mer tid til lek, søvn,
+            vennskap og fritidsaktiviteter.
           </p>
-        </section>
+        </div>
+      </section>
 
-        <section className="contentSection">
+      <section className="audienceSection">
+        <div className="audienceIntro">
           <h2>Hvem er siden for?</h2>
           <p>
             Siden er laget for foreldre, foresatte, FAU, skoler og andre i
             Tromsø som ønsker en felles og trygg samtale om barn, smarttelefoner
             og digitalt press.
           </p>
-          <p>
-            Her skal det være enkelt å finne informasjon, dele initiativet videre og ta
-            kontakt dersom man ønsker å bidra.
-          </p>
-        </section>
+        </div>
+        <p className="largeQuote">
+          Det viktigste er ikke å ha perfekte svar, men å gjøre det enkelt å finne
+          hverandre og starte samtalen før smarttelefonen blir en selvfølge.
+        </p>
+      </section>
 
-        <section id="bidra" className="contentSection">
+      <section id="bidra" className="stepsSection">
+        <div>
           <h2>Slik kan du bidra</h2>
-          <ul>
-            <li>Snakk med andre foreldre i klassen eller nærmiljøet.</li>
-            <li>Del informasjon om Sammen for Tromsøs barn.</li>
-            <li>Ta kontakt hvis du vil bidra eller vite mer.</li>
-          </ul>
-        </section>
+          <p>
+            Start lite og konkret. Erfaringen fra foreldreinitiativ andre steder
+            er at det ofte fungerer best å begynne med ett klassetrinn, samle
+            støtte og deretter løfte saken videre.
+          </p>
+        </div>
+        <ul>
+          {contributionSteps.map((step) => (
+            <li key={step}>
+              {step}
+            </li>
+          ))}
+        </ul>
+      </section>
 
-        <section id="kontakt" className="contactBox">
+      <section id="kontakt" className="contactBox">
+        <div>
           <h2>Kontakt</h2>
           <p>
             Vil du vite mer, bidra eller komme i kontakt med Alexandra og Kirsti?
           </p>
-          <p className="contactNote">
-            Kontaktinformasjon legges inn når initiativet har valgt e-postadresse
-            eller kontaktskjema.
-          </p>
-        </section>
-      </main>
+        </div>
+        <p className="contactNote">
+          Kontaktinformasjon legges inn når initiativet har valgt e-postadresse
+          eller kontaktskjema.
+        </p>
+      </section>
+
+      <footer className="siteFooter">
+        <img src="/tromso-harbor.svg" alt="" aria-hidden="true" />
+        <p>Sammen for Tromsøs barn</p>
+      </footer>
+    </main>
   )
 }
 
