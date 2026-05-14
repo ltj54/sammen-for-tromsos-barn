@@ -19,6 +19,10 @@ const contributionSteps = [
   'Finn andre foreldre i Tromsø som vil dele erfaringer og gjøre det lettere å holde linjen over tid.',
 ]
 
+function scrollToSection(id: string) {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+}
+
 function App() {
   return (
     <main className="page">
@@ -48,12 +52,20 @@ function App() {
           </p>
 
           <div className="heroActions">
-            <a href="#kontakt" className="primaryButton">
+            <button
+              className="primaryButton"
+              type="button"
+              onClick={() => scrollToSection('kontakt')}
+            >
               Ta kontakt
-            </a>
-            <a href="#om" className="secondaryButton">
+            </button>
+            <button
+              className="secondaryButton"
+              type="button"
+              onClick={() => scrollToSection('om')}
+            >
               Les mer
-            </a>
+            </button>
           </div>
 
           <img
@@ -155,7 +167,22 @@ function App() {
 
       <footer className="siteFooter">
         <img src="/tromso-harbor.svg" alt="" aria-hidden="true" />
-        <p>Sammen for Tromsøs barn</p>
+        <div className="footerInfo">
+          <a
+            className="sponsorLink"
+            href="https://www.sparebank1.no/nb/nord-norge/privat.html"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Sponset av SpareBank 1 Nord-Norge"
+          >
+            <img className="sponsorLogo" src="/logo-snn.svg" alt="" aria-hidden="true" />
+            <span>
+              <span className="sponsorLabel">Sponset av</span>
+              <span className="sponsorName">SpareBank 1 Nord-Norge</span>
+            </span>
+          </a>
+          <p>Sammen for Tromsøs barn</p>
+        </div>
       </footer>
     </main>
   )
