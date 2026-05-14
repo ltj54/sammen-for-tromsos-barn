@@ -1,5 +1,7 @@
 import './App.css'
 
+const assetPath = (path: string) => `${import.meta.env.BASE_URL}${path}`
+
 const navItems = [
   { href: '#om', label: 'Om initiativet' },
   { href: '#hvorfor', label: 'Hvorfor' },
@@ -70,7 +72,7 @@ function App() {
 
           <img
             className="harborSketch"
-            src="/tromso-harbor.svg"
+            src={assetPath('tromso-harbor.svg')}
             alt="Linjeillustrasjon av Tromsø med fjell, bro og havnefront"
           />
         </div>
@@ -166,7 +168,7 @@ function App() {
       </section>
 
       <footer className="siteFooter">
-        <img src="/tromso-harbor.svg" alt="" aria-hidden="true" />
+        <img src={assetPath('tromso-harbor.svg')} alt="" aria-hidden="true" />
         <div className="footerInfo">
           <a
             className="sponsorLink"
@@ -175,7 +177,7 @@ function App() {
             rel="noreferrer"
             aria-label="Sponset av SpareBank 1 Nord-Norge"
           >
-            <img className="sponsorLogo" src="/logo-snn.svg" alt="" aria-hidden="true" />
+            <img className="sponsorLogo" src={assetPath('logo-snn.svg')} alt="" aria-hidden="true" />
             <span>
               <span className="sponsorLabel">Sponset av</span>
               <span className="sponsorName">SpareBank 1 Nord-Norge</span>
