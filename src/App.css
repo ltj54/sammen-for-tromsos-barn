@@ -13,8 +13,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-          radial-gradient(circle at top left, rgba(160, 190, 170, 0.35), transparent 32rem),
-          linear-gradient(180deg, #f7f4ec 0%, #eef3ef 100%);
+          radial-gradient(circle at top left, rgba(112, 151, 132, 0.26), transparent 32rem),
+          linear-gradient(180deg, #f7f4ec 0%, #edf4f2 100%);
 }
 
 a {
@@ -45,7 +45,6 @@ a {
   color: #17211f;
   font-weight: 800;
   text-decoration: none;
-  letter-spacing: -0.02em;
 }
 
 .navLinks {
@@ -74,21 +73,11 @@ a {
   box-shadow: 0 24px 60px rgba(45, 64, 56, 0.12);
 }
 
-.eyebrow {
-  margin: 0 0 16px;
-  color: #597266;
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
 h1 {
   margin: 0;
   color: #17211f;
   font-size: clamp(2.4rem, 6vw, 5rem);
   line-height: 0.98;
-  letter-spacing: -0.06em;
 }
 
 .lead {
@@ -146,7 +135,6 @@ h1 {
   margin: 0 0 14px;
   color: #17211f;
   font-size: clamp(1.5rem, 3vw, 2.1rem);
-  letter-spacing: -0.03em;
 }
 
 .contentSection p,
@@ -190,14 +178,12 @@ h1 {
 }
 
 .contactBox h2,
-.contactBox p,
-.contactBox a {
+.contactBox p {
   color: white;
 }
 
-.contactBox a {
-  font-size: 1.1rem;
-  font-weight: 700;
+.contactNote {
+  opacity: 0.86;
 }
 
 @media (max-width: 720px) {
