@@ -1,6 +1,6 @@
-# Sammen for Tromsøs barn
+# Sammen for Tromsø sine barn
 
-Nettsideutkast for det lokale initiativet Sammen for Tromsøs barn.
+Nettsideutkast for det lokale initiativet Sammen for Tromsø sine barn.
 
 Prosjektet er bygget med React, TypeScript og Vite.
 

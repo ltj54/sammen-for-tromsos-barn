@@ -1,4 +1,308 @@
-# Sammen for Tromsøs barn - notater
+# Sammen for Tromsø sine barn - notater
+
+nyfirmasjekk fant dette:
+Hopp til innhold
+
+N
+Registerbasert virksomhetssøk
+
+NyFirmasjekk
+
+Søkeresultater
+Utsendelser
+Startpakke
+Kontakt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Registerstatus og leadvurdering
+
+SAMMEN FOR TROMSØ SINE BARN
+937708122
+FLI
+TROMSØ
+Mulig lead
+En rask leadvurdering basert på offentlige registerspor, kontaktpunkter og digital synlighet.
+
+Oppsummering
+
+Rask vurdering
+Dette er det raske beslutningsbildet: leadvurdering, viktigste registerspor og om selskapet ser kontaktbart ut.
+
+Leadvurdering
+
+Mulig lead
+
+Hendelser
+
+1
+
+Rollepunkter
+
+2
+
+Etablert
+
+2026-05-13
+
+Stiftet
+
+2026-05-08
+
+Bransje
+
+Ikke oppgitt
+
+Salgsgruppe
+
+Annet (40)
+
+Nettside
+
+Ingen registrert
+
+MVA
+
+Ikke registrert
+
+Foretaksregister
+
+Ikke registrert
+
+Fylke
+
+Ukjent
+
+Ansatte
+
+Ikke rapportert
+
+Siste årsregnskap
+
+Ikke registrert
+
+Kort registerspor
+
+Virksomheten finnes i Enhetsregisteret.
+
+Mulig nettside
+
+Google-søk
+Ingen registrert nettside i BRREG, men vi fant en mulig kandidat.
+
+sammenfor.no
+Svarte ikke
+sammenforer.no
+Svarte ikke
+sammenforbarn.no
+Svarte ikke
+sammenforbarner.no
+Svarte ikke
+sammenfortromso.no
+Svarte ikke
+Navnebasert domene-forslag uten bekreftet kobling. Må bekreftes manuelt.
+
+Kandidaten svarte ikke ved sjekk
+
+Ingen av kandidatene svarte ved sjekk.
+
+Slik ble kandidaten vurdert
+
+Kandidatene er laget fra selskapsnavnet "SAMMEN FOR TROMSØ SINE BARN" etter at selskapsform og spesialtegn er fjernet.
+Systemet vurderte 5 mulige domener og viser dem i prioritert rekkefølge.
+På detaljsiden ble alle 5 kandidatene teknisk sjekket. 0 svarte.
+Domenet svarte ikke på teknisk sjekk innen tidsfristen.
+Sikkerheten er lav fordi koblingen ikke er bekreftet godt nok.
+Lav sikkerhet · NAME_HEURISTIC
+
+Kommersiell mulighet
+
+Mulig nettside må bekreftes
+Ingen nettside er registrert i BRREG, men vi har funnet en mulig kandidat. Bekreft før dette behandles som sterkt lead.
+
+
+Første e-post om nettside er sendt
+Registrert som sendt. Ny utsendelse krever eksplisitt overstyring.
+Sendt 13.05.2026, 11:12
+Angre
+Send på nytt likevel
+Tilbudsmail
+
+Generer e-posttekst fra mal
+Bruk Markdown-malen i `data/outreach-email-template.md` og fyll inn selskapsdata automatisk.
+
+Tilbudstype: Ny nettside
+Viktigste registerspor
+Organisasjonsnummer
+
+Virksomheten finnes i Enhetsregisteret.
+
+BRREG grunndata
+
+Alder
+
+Virksomheten er nylig registrert og har begrenset historikk.
+
+BRREG Enhetsregisteret
+
+Roller
+
+Sentrale roller er registrert i åpne rolledata.
+
+BRREG roller
+
+Kontakt og synlighet
+Kontaktperson
+
+Kirsti Solveig Des Bouvrie Thorsen
+
+Styremedlem
+
+E-post
+
+jaraolsen@gmail.com
+Telefon
+
+994 74 868
+Nettside
+
+Ikke registrert
+
+Analysegrunnlag
+
+Roller og registerspor
+Dette er et øyeblikksbilde fra åpne registerdata, uten lagret historikk eller nettverksanalyse.
+
+Roller gir et raskt bilde av hvem som faktisk står synlig bak virksomheten i åpne registerdata.
+
+STYREMEDLEM
+
+Kirsti Solveig Des Bouvrie Thorsen
+
+STYREMEDLEM
+
+Alexandra Jara Dons
+
+Nyregistrert selskap
+Virksomheten ble registrert 2026-05-13.
+
+BRREG Enhetsregisteret
+
+Ingen registrert nettside
+Det finnes ingen registrert nettside i åpne BRREG-data.
+
+BRREG grunndata
+
+Ikke i Foretaksregisteret
+Virksomheten er ikke registrert i Foretaksregisteret.
+
+BRREG registerstatus
+
+Strukturmønstre
+Nytt selskap i fersk fase
+
+Til orientering
+Selskapet er nylig registrert og bør leses sammen med mønstre rundt aktører og relaterte virksomheter.
+
+BRREG Enhetsregisteret
+
+Registrerte hendelser
+Nyregistrering i Enhetsregisteret
+
+Registrering
+
+Informasjon
+2026-05-13
+
+Registerspor bak vurderingen
+Organisasjonsnummer
+Alder
+Roller
+Nyregistrert selskap
+Ingen registrert nettside
+Ikke i Foretaksregisteret
+Hvordan vi vurderer
+Rød brukes bare når åpne registerdata viser alvorlige forhold, som konkurs, avvikling eller manglende ledelse i selskapsformer som normalt skal ha det.
+
+Gul brukes når flere svakere signaler peker i samme retning, for eksempel nytt selskap kombinert med tynne eller manglende registeropplysninger.
+
+Grønn betyr at selskapet ser ryddig ut i åpne BRREG-data, men er ikke en garanti for økonomi, kredittverdighet eller betalingsvilje.
+
+Vurderingen er laget som en første sjekk av formalia og registreringsspor, ikke som en full kredittvurdering.
 
 mail jeg sendte:
 Hei Kirsti,
@@ -75,7 +379,7 @@ Lars
 jeg skriver mail til de to:
 Hei dere to!
 
-Jeg har laget et lite forslag til en enkel nettside for initiativet deres, “Sammen for Tromsøs barn”.
+Jeg har laget et lite forslag til en enkel nettside for initiativet deres, “Sammen for Tromsø sine barn”.
 
 Tanken er at siden kan samle budskapet, forklare hva initiativet handler om, hvorfor det er viktig, og gjøre det enkelt for foreldre å forstå hvordan de kan bidra eller ta kontakt. Jeg vet ikke hvordan det kan se ut så dette er bare løse forslag (noe er stjålet fra www.smarttelefonfribarndom.no). Uansett, det er mye som kan gå inn her (visuelt og tekstlig).
 

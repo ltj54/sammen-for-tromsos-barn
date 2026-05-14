@@ -29,9 +29,9 @@ function App() {
   return (
     <main className="page">
       <header className="siteHeader">
-        <a href="#" className="logo" aria-label="Sammen for Tromsøs barn">
-          <span className="logoMark">STB</span>
-          <span>Sammen for Tromsøs barn</span>
+        <a href="#" className="logo" aria-label="Sammen for Tromsø sine barn">
+          <span className="logoMark">SFB</span>
+          <span>Sammen for Tromsø sine barn</span>
         </a>
 
         <nav className="navLinks" aria-label="Hovedmeny">
@@ -45,7 +45,7 @@ function App() {
 
       <section className="hero">
         <div className="heroCopy">
-          <h1>Sammen for Tromsøs barn</h1>
+          <h1>Sammen for Tromsø sine barn</h1>
 
           <p className="lead">
             Et lokalt initiativ for mindre smarttelefonpress og en tryggere
@@ -94,7 +94,7 @@ function App() {
         </div>
         <div className="sectionText">
           <p>
-            Sammen for Tromsøs barn er et lokalt initiativ for foreldre, skoler
+            Sammen for Tromsø sine barn er et lokalt initiativ for foreldre, skoler
             og nærmiljø som ønsker å redusere smarttelefonpresset og gjøre det
             enklere å gi barn i Tromsø en tryggere og mer tilstedeværende
             barndom.
@@ -163,6 +163,7 @@ function App() {
           </p>
         </div>
         <p className="contactNote">
+          Organisasjonsnummer 937 708 122. FLI registrert i Tromsø.
           Kontaktinformasjon legges inn når initiativet har valgt e-postadresse
           eller kontaktskjema.
         </p>
@@ -184,7 +185,7 @@ function App() {
               <span className="sponsorName">SpareBank 1 Nord-Norge</span>
             </span>
           </a>
-          <p>Sammen for Tromsøs barn</p>
+          <p>Sammen for Tromsø sine barn</p>
         </div>
       </footer>
     </main>
