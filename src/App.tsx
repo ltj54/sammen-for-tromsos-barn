@@ -10,9 +10,9 @@ const navItems = [
 ]
 
 const principles = [
-  'Smarttelefon kan vente',
-  'Klasse og trinn først',
-  'FAU i ryggen',
+  'Mindre smarttelefonpress',
+  'Mer lek, søvn og vennskap',
+  'Foreldre som står sammen',
 ]
 
 const contributionSteps = [
@@ -48,9 +48,9 @@ function App() {
           <h1>Sammen for Tromsøs barn</h1>
 
           <p className="lead">
-            Et lokalt initiativ i Tromsø for foreldre som vil utsette
-            smarttelefon til etter barneskolen, og gi barna mer lek, ro,
-            fellesskap og tilstedeværelse i hverdagen.
+            Et lokalt initiativ for mindre smarttelefonpress og en tryggere
+            barndom. Sammen kan foreldre, skoler og nærmiljø skape bedre
+            rammer for lek, søvn, vennskap og læring.
           </p>
 
           <div className="heroActions">
@@ -79,7 +79,7 @@ function App() {
 
         <aside className="noticeBoard" aria-label="Kjernepunkter">
           <div className="noticePin" />
-          <p>Felles valg blir lettere når ingen må ta dem alene.</p>
+          <p>Foreldre trenger ikke stå alene i smarttelefonpresset.</p>
           <ul>
             {principles.map((item) => (
               <li key={item}>{item}</li>
@@ -95,14 +95,15 @@ function App() {
         <div className="sectionText">
           <p>
             Sammen for Tromsøs barn er et lokalt initiativ for foreldre, skoler
-            og nærmiljø som ønsker å gjøre det vanligere å vente med smarttelefon
-            gjennom barneskolen.
+            og nærmiljø som ønsker å redusere smarttelefonpresset og gjøre det
+            enklere å gi barn i Tromsø en tryggere og mer tilstedeværende
+            barndom.
           </p>
           <p>
-            Målet er ikke å være moraliserende, men å gjøre det enklere å stå
-            sammen om gode valg. Når flere foreldre på samme trinn snakker sammen,
-            blir det mindre press på hver enkelt familie og mindre utenforskap for
-            barna som venter.
+            Målet er ikke å moralisere over teknologi, men å gjøre det enklere å
+            stå sammen om gode rammer. Når flere foreldre på samme trinn snakker
+            sammen, blir det mindre press på hver enkelt familie og mer rom for
+            lek, søvn, vennskap og læring.
           </p>
         </div>
       </section>
@@ -113,10 +114,10 @@ function App() {
           <h2>Hvorfor er dette viktig?</h2>
           <p>
             Mange foreldre opplever at det er vanskelig å ta valget alene.
-            Dette handler først og fremst om smarttelefon og sosiale medier,
+            Dette handler først og fremst om smarttelefonpress og sosiale medier,
             ikke om å lage en debatt om all skjermbruk. Når flere står sammen,
-            blir det lettere å redusere press og gi barna mer tid til lek, søvn,
-            vennskap og fritidsaktiviteter.
+            blir det lettere å gi barna mer tid til lek, søvn, vennskap og
+            fritidsaktiviteter.
           </p>
         </div>
       </section>
@@ -127,12 +128,12 @@ function App() {
           <p>
             Siden er laget for foreldre, foresatte, FAU, skoler og andre i
             Tromsø som ønsker en felles og trygg samtale om barn, smarttelefoner
-            og digitalt press.
+            og presset mange familier kjenner på.
           </p>
         </div>
         <p className="largeQuote">
-          Det viktigste er ikke å ha perfekte svar, men å gjøre det enkelt å finne
-          hverandre og starte samtalen før smarttelefonen blir en selvfølge.
+          Vi er for barn. For lek. For søvn. For vennskap. For foreldre som står
+          sammen.
         </p>
       </section>
 
