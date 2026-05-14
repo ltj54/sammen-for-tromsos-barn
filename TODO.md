@@ -72,6 +72,20 @@ Lars
 
 [kontakt@ltj-production.no](mailto:kontakt@ltj-production.no)
 
+jeg skriver mail til de to:
+Hei dere to!
+
+Jeg har laget et lite forslag til en enkel nettside for initiativet deres, “Sammen for Tromsøs barn”.
+
+Tanken er at siden kan samle budskapet, forklare hva initiativet handler om, hvorfor det er viktig, og gjøre det enkelt for foreldre å forstå hvordan de kan bidra eller ta kontakt. Jeg vet ikke hvordan det kan se ut så dette er bare løse forslag (noe er stjålet fra www.smarttelefonfribarndom.no). Uansett, det er mye som kan gå inn her (visuelt og tekstlig).
+
+Se gjerne forslaget her: https://ltj54.github.io/sammen-for-tromsos-barn/
+
+Dette er bare et forslag, så alt av tekst, uttrykk og innhold må endres.
+
+Hilsen
+Lars
+
 ## Neste steg
 
 - [ ] Avklare korrekt navn og skrivemåte for initiativet.
